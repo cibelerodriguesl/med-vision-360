@@ -2,6 +2,10 @@ export const defaultTheme = {
     // new
     white: '#FFF',
     black: '#000000',
+    orange: '#F25C05',
+    orange_hover: '#da5305',
+
+    //old
     base_background_link: '#4169E1',
     // fonts
     font_Base: 'Inter, sans-serif',

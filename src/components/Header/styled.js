@@ -16,17 +16,12 @@ export const Container = styled.header`
     flex-direction: column;
     width: 100%;
 
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.16px;
-    button {
-        padding: 0.5rem 1rem;
-        border-radius: 5px;
-        border: none;
-    }
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.16px;
   }
 `;
 
@@ -60,10 +55,22 @@ export const ContainerMobile = styled.div`
       padding: 0.5rem 1rem;
       cursor: pointer;
       border-radius: 8px;
+      a {
+        text-decoration: none;
+        color: ${props => props.theme.white};
+        button {
+          background-color: transparent;
+          color: ${props => props.theme.white};
+          border: none;
+          font-weight: bold;
+          font-size: 16px;
+        }
+      }
       &:hover {
         border-radius: 8px;
         background-color: #0d2333;
       }
+
     }
   }
   > div {
@@ -83,23 +90,27 @@ export const ContainerDesktop = styled.div`
     display: flex;
     align-items: center;
     gap: 0.5rem;
-   button {
+    button {
       cursor: pointer;
-      a{
+
+      a {
         text-decoration: none;
-        color: red;
-        
       }
-}
+    }
   }
   > ul {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 1rem;
-li {
+    li {
       cursor: pointer;
-}
+      a {
+        text-decoration: none;
+        color: ${props => props.theme.white};
+      }
+    }
+
 
     @media (max-width: 873px) {
       display: none;
