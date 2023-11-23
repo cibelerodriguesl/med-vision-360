@@ -34,7 +34,7 @@ const VideoRecorder = () => {
     setTimeout(() => {
       setIsRecording(false);
       setShowCapturedImage(true);
-    }, 3000); // 3000 milliseconds = 3 seconds (ajuste conforme necessário)
+    }, 3000); // 3000 milliseconds = 3 seconds
   }, [webcamRef, captureCount]);
 
   return (
