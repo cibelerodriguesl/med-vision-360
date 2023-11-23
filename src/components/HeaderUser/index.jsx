@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Divide as Hamburger } from 'hamburger-react';
-import { Container, MenuMobile, ContainerMobile, ContainerDesktop, NavLinkContainer } from './styled';
+import { Container, MenuMobile, ContainerMobile, ContainerDesktop } from './styled';
 import logo from '../../assets/logo1.svg';
 import { Button } from '../Button';
 
@@ -34,15 +34,24 @@ const HeaderUser = ({ navLinks, rota1, descriptionRoute1, rota2, descriptionRout
                 </li>
               ))}
             </NavLinkContainer> */}
-            <Link to={`${rota1}`}>
-              {descriptionRoute1}
-            </Link>
-            <Link to={`${rota2}`}>
-              {descriptionRoute2}
-            </Link>
-            <Link to={`${rota3}`}>
-              {descriptionRoute3}
-            </Link>
+            <ul>
+              <li>
+                <Link to={`${rota1}`}>
+                  {descriptionRoute1}
+                </Link>
+              </li>
+              <li>
+                <Link to={`${rota2}`}>
+                  {descriptionRoute2}
+                </Link>
+              </li>
+              <li>
+                <Link to={`${rota3}`}>
+                  {descriptionRoute3}
+                </Link>
+              </li>
+            </ul>
+            
             <div>
               <Button onClick={handleNextPage}>Sair</Button>
             </div>
@@ -50,15 +59,23 @@ const HeaderUser = ({ navLinks, rota1, descriptionRoute1, rota2, descriptionRout
         ) : (
           <ContainerMobile>
             <img src={logo} alt="logo" />
-            <NavLinkContainer>
-              {navLinks.map((link, index) => (
-                <li key={index}>
-                  <a href={link.href} onClick={closeMenu}>
-                    <button>{link.label}</button>
-                  </a>
-                </li>
-              ))}
-            </NavLinkContainer>
+            <ul>
+              <li>
+                <Link to={`${rota1}`}>
+                  {descriptionRoute1}
+                </Link>
+              </li>
+              <li>
+                <Link to={`${rota2}`}>
+                  {descriptionRoute2}
+                </Link>
+              </li>
+              <li>
+                <Link to={`${rota3}`}>
+                  {descriptionRoute3}
+                </Link>
+              </li>
+            </ul>
             <div>
               <Button onClick={handleNextPage}>Sair</Button>
             </div>

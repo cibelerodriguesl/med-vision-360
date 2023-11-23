@@ -108,6 +108,7 @@ export const ContainerDesktop = styled.div`
     }
     @media (max-width: 873px) {
       display: none;
+        
     }
   }
   > div {
@@ -120,30 +121,3 @@ export const ContainerDesktop = styled.div`
   }
 `;
 
-export const NavLinkContainer = styled.ul`
-  display: flex;
-  gap: 1rem;
-
-  li {
-    list-style: none;
-    text-align: center;
-    cursor: pointer;
-
-    a {
-      text-decoration: none;
-      color: ${(props) => props.theme.white};
-      button {
-        background-color: transparent;
-        color: ${(props) => props.theme.white};
-        border: none;
-        font-weight: bold;
-        font-size: 16px;
-      }
-    }
-
-    &:hover {
-      border-radius: 8px;
-      background-color: #0d2333;
-    }
-  }
-`;
