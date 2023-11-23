@@ -8,7 +8,7 @@ export const Container = styled.header`
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
   nav {
     display: flex;
     justify-content: space-between;

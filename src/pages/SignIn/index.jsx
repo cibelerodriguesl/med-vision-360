@@ -5,10 +5,11 @@ import { Footer } from "../../components/Footer";
 import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export function SignIn() {
     const [professor, setProfessor] = useState(false)
+    const navigate = useNavigate()
 
     function handleProfessor(e) {
         e.preventDefault()
@@ -17,6 +18,16 @@ export function SignIn() {
     function handleAluno(e) {
         e.preventDefault()
         setProfessor(true)
+    }
+
+    function Entrar(e) {
+        e.preventDefault()
+        if (professor === true) {
+            navigate('/GravacoesProfessor')
+        } else{
+            navigate('/AulaAluno')
+        }
+        
     }
 
     return (
@@ -48,7 +59,7 @@ export function SignIn() {
 
 
 
-                                    <Button secondary onClick={() => { }}>
+                                    <Button secondary onClick={Entrar}>
                                         Entrar
                                     </Button>
                                     <p>Deseja acessar o Portal do Aluno?
@@ -85,7 +96,7 @@ export function SignIn() {
                                         prefix={"Digite sua senha"}
                                     />
 
-                                    <Button secondary >
+                                    <Button secondary onClick={Entrar}>
                                         Entrar
                                     </Button>
                                     <p>Deseja acessar como Professor?

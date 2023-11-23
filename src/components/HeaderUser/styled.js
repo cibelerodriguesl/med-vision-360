@@ -1,21 +1,18 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.header`
   background-color: transparent;
-  //usando token de cores
   color: ${(props) => props.theme.white};
-  height: 100%;
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     width: 100%;
-
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -57,10 +54,10 @@ export const ContainerMobile = styled.div`
       border-radius: 8px;
       a {
         text-decoration: none;
-        color: ${props => props.theme.white};
+        color: ${(props) => props.theme.white};
         button {
           background-color: transparent;
-          color: ${props => props.theme.white};
+          color: ${(props) => props.theme.white};
           border: none;
           font-weight: bold;
           font-size: 16px;
@@ -70,7 +67,6 @@ export const ContainerMobile = styled.div`
         border-radius: 8px;
         background-color: #0d2333;
       }
-
     }
   }
   > div {
@@ -107,11 +103,9 @@ export const ContainerDesktop = styled.div`
       cursor: pointer;
       a {
         text-decoration: none;
-        color: ${props => props.theme.white};
+        color: ${(props) => props.theme.white};
       }
     }
-
-
     @media (max-width: 873px) {
       display: none;
     }
@@ -123,5 +117,33 @@ export const ContainerDesktop = styled.div`
   }
   @media (max-width: 873px) {
     width: auto;
+  }
+`;
+
+export const NavLinkContainer = styled.ul`
+  display: flex;
+  gap: 1rem;
+
+  li {
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+
+    a {
+      text-decoration: none;
+      color: ${(props) => props.theme.white};
+      button {
+        background-color: transparent;
+        color: ${(props) => props.theme.white};
+        border: none;
+        font-weight: bold;
+        font-size: 16px;
+      }
+    }
+
+    &:hover {
+      border-radius: 8px;
+      background-color: #0d2333;
+    }
   }
 `;

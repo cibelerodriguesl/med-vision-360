@@ -3,7 +3,7 @@ export const ContainerFooter = styled.footer`
 display: flex;
 align-items: center;
 justify-content: space-between;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   padding-left: 10%;
   padding-right: 10%;
 p {

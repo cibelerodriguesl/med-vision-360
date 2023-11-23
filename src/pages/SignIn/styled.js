@@ -1,14 +1,13 @@
 import styled from "styled-components";
-import bg_mask2 from "../../assets/bg_mask2.png";
 export const ContainerSignIn = styled.div`
-  background-image: url(${bg_mask2});
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100vh;
+  height: 110vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background: var(
+    --gradiente,
+    linear-gradient(180deg, #010101 0%, #0e2739 100%)
+  );
 
   > div {
     padding-top: 2rem;
@@ -18,7 +17,6 @@ export const ContainerSignIn = styled.div`
   section {
     display: flex;
     align-items: center;
-   
     justify-content: space-between;
     padding-top: 6rem;
     padding-bottom: 6rem;
