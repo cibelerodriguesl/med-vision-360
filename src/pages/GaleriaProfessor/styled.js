@@ -21,7 +21,6 @@ export const ContainerSection = styled.section`
   padding-right: 10%;
   display: flex;
   flex-wrap: wrap;  
-  border: solid red;
   align-itens: center;
   gap: 1.5rem;
   justify-content: space-between;

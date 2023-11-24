@@ -32,61 +32,61 @@ export function GravacoesProfessor() {
       <ContainerSectionCard>
                   <GalleryCards
                       title="Aula1"
-                      videoUrl="https://www.youtube.com/embed/-SKYspW7ZzU?si=JcyUkiZ_5gW_Yf-i"
+                      videoUrl="https://www.youtube.com/embed/yALusa-mosc?si=8USDxwCSyCvPga2O"
                       professorName="Nome do Professor X"
                       videoDate="Dia 02 de janeiro de 2023"
                   />
                   <GalleryCards
                       title="Aula1"
-                      videoUrl="https://www.youtube.com/embed/-SKYspW7ZzU?si=JcyUkiZ_5gW_Yf-i"
+                      videoUrl="https://www.youtube.com/embed/yALusa-mosc?si=8USDxwCSyCvPga2O"
                       professorName="Nome do Professor X"
                       videoDate="Dia 02 de janeiro de 2023"
                   />
                   <GalleryCards
                       title="Aula1"
-                      videoUrl="https://www.youtube.com/embed/-SKYspW7ZzU?si=JcyUkiZ_5gW_Yf-i"
+                      videoUrl="https://www.youtube.com/embed/yALusa-mosc?si=8USDxwCSyCvPga2O"
                       professorName="Nome do Professor X"
                       videoDate="Dia 02 de janeiro de 2023"
                   />
                   <GalleryCards
                       title="Aula1"
-                      videoUrl="https://www.youtube.com/embed/-SKYspW7ZzU?si=JcyUkiZ_5gW_Yf-i"
+                      videoUrl="https://www.youtube.com/embed/yALusa-mosc?si=8USDxwCSyCvPga2O"
                       professorName="Nome do Professor X"
                    videoDate="Dia 02 de janeiro de 2023"
                   />
                   <GalleryCards
                       title="Aula1"
-                      videoUrl="https://www.youtube.com/embed/-SKYspW7ZzU?si=JcyUkiZ_5gW_Yf-i"
+                      videoUrl="https://www.youtube.com/embed/yALusa-mosc?si=8USDxwCSyCvPga2O"
                       professorName="Nome do Professor X"
                       videoDate="Dia 02 de janeiro de 2023"
                   />
                   <GalleryCards
                       title="Aula1"
-                      videoUrl="https://www.youtube.com/embed/-SKYspW7ZzU?si=JcyUkiZ_5gW_Yf-i"
+                      videoUrl="https://www.youtube.com/embed/yALusa-mosc?si=8USDxwCSyCvPga2O"
                       professorName="Nome do Professor X"
                       videoDate="Dia 02 de janeiro de 2023"
                   />
                   <GalleryCards
                       title="Aula1"
-                      videoUrl="https://www.youtube.com/embed/-SKYspW7ZzU?si=JcyUkiZ_5gW_Yf-i"
+                      videoUrl="https://www.youtube.com/embed/yALusa-mosc?si=8USDxwCSyCvPga2O"
                       professorName="Nome do Professor X"
                       videoDate="Dia 02 de janeiro de 2023"
                   />
                   <GalleryCards
                       title="Aula1"
-                      videoUrl="https://www.youtube.com/embed/-SKYspW7ZzU?si=JcyUkiZ_5gW_Yf-i"
+                      videoUrl="https://www.youtube.com/embed/yALusa-mosc?si=8USDxwCSyCvPga2O"
                       professorName="Nome do Professor X"
                    videoDate="Dia 02 de janeiro de 2023"
                   />
                   <GalleryCards
                       title="Aula1"
-                      videoUrl="https://www.youtube.com/embed/-SKYspW7ZzU?si=JcyUkiZ_5gW_Yf-i"
+                      videoUrl="https://www.youtube.com/embed/yALusa-mosc?si=8USDxwCSyCvPga2O"
                       professorName="Nome do Professor X"
                       videoDate="Dia 02 de janeiro de 2023"
                   />
                   <GalleryCards
                       title="Aula1"
-                      videoUrl="https://www.youtube.com/embed/-SKYspW7ZzU?si=JcyUkiZ_5gW_Yf-i"
+                      videoUrl="https://www.youtube.com/embed/yALusa-mosc?si=8USDxwCSyCvPga2O"
                       professorName="Nome do Professor X"
                       videoDate="Dia 02 de janeiro de 2023"
                   />

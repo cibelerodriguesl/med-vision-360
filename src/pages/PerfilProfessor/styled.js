@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   height: 100vh;
-  border: solid green;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -20,7 +19,6 @@ export const Container = styled.div`
 `;
 
 export const FormContainer = styled.div`
-  border: solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
