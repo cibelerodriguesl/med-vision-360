@@ -28,12 +28,12 @@ export function SignUp() {
                     <ContainerCadastro>
                         <div>
                             <Link to="/">
-                                <img src={logo} alt="" />
+                                <img src={logo} alt="logo medvision" />
                             </Link>
                         </div>
 
                         <section>
-                            <img src={logo3} alt="" />
+                            <img src={logo3} alt="logo" />
                             <form>
                                 
                                 <fieldset>
@@ -72,12 +72,12 @@ export function SignUp() {
                     <CadastroProfessor>
                         <div>
                             <Link to="/">
-                                <img src={logo} alt="" />
+                                <img src={logo} alt="logo medvision" />
                             </Link>
                         </div>
 
                         <section>
-                            <img src={logo3} alt="" />
+                            <img src={logo3} alt="logo" />
                             <form>
                                
                                 <fieldset>

@@ -37,12 +37,12 @@ export function SignIn() {
                     <ContainerSignIn>
                         <div>
                             <Link to="/">
-                                <img src={logo} alt="" />
+                                <img src={logo} alt="logo" />
                             </Link>
                         </div>
 
                         <section>
-                            <img src={logo3} alt="" />
+                            <img src={logo3} alt="logo" />
                             <form>
                                 <p>Professor! É ótimo tê-lo de volta ao Med Vision 360</p>
 
@@ -76,12 +76,12 @@ export function SignIn() {
                     <ContainerSignInAluno>
                         <div>
                             <Link to="/">
-                                <img src={logo} alt="" />
+                                <img src={logo} alt="logo medvision" />
                             </Link>
                         </div>
 
                         <section>
-                            <img src={logo3} alt="" />
+                            <img src={logo3} alt="logo" />
                             <form>
                                 <p>Olá, aluno! Bem-vindo de volta ao Med Vision 360 </p>
 

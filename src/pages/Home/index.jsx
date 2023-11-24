@@ -65,7 +65,7 @@ export function Home() {
 
             {/* SECTION PAI */}
             <ContainerSection id="about">
-                <img src={logo2} alt="img" />
+                <img src={logo2} alt="logo medvision tamanho grande" />
                 <article>
                     <h1>MedVison 360</h1>
                     <p>
@@ -76,12 +76,12 @@ export function Home() {
                         tecnologia convergem para criar uma experiência educacional
                         incomparável.
                     </p>
-                    <img src={img1} alt="zói" />
+                    <img src={img1} alt="olhos azuis de um homem" />
                 </article>
             </ContainerSection>
 
             <ContainerSection>
-                <img src={img2} alt="imagem" />
+                <img src={img2} alt="aluno assistindo live pelo computador" />
 
                 <article>
                     <Card
@@ -107,7 +107,7 @@ export function Home() {
             {/* SECTION FILHA, ESTENDENDO ESTILOS */}
             <h2 id="product">Nosso Produto</h2>
             <ChildContainerSection>
-                <img src={img3} alt="img" />
+                <img src={img3} alt="mockup do óculos inteligente medvision" />
                 <article>
                     <Card
                         title="Descubra uma revolução no Ensino e Pesquisa"
@@ -167,7 +167,7 @@ export function Home() {
                         </a>
                     }
                     iconSecondary={
-                        <a href="https://github.com/Bee-Pirez" target="_blank" alt="" rel="noreferrer">
+                        <a href="https://github.com/Bee-Pirez" target="_blank" alt="github" rel="noreferrer">
                             <GithubLogo size={32} color="#FFF" weight="fill" />
                         </a>
                     }
@@ -182,7 +182,7 @@ export function Home() {
                         <a
                             href="https://www.linkedin.com/in/cibelerodriguesl/"
                             target="_blank"
-                            alt="" rel="noreferrer"
+                            alt="linkedin" rel="noreferrer"
                         >
                             <LinkedinLogo size={32} color="#FFF" weight="fill" />
                         </a>
@@ -191,7 +191,7 @@ export function Home() {
                         <a
                             href="https://www.behance.net/cibelerodriguesl"
                             target="_blank"
-                            alt="" rel="noreferrer"
+                            alt="behance" rel="noreferrer"
                         >
                             <BehanceLogo size={32} color="#FFF" weight="bold" />
                         </a>
