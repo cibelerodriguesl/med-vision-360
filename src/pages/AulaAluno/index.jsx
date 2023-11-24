@@ -31,7 +31,7 @@ export function AulaAluno() {
             <ContainerSection>
                 <ContainerVideo>
                     <iframe
-                        src="https://www.youtube.com/embed/fAmKjRlkFE0?si=ygbkHOTumJ8SpnU7"
+                        src="https://www.youtube.com/embed/yALusa-mosc?si=5nrAUfdoT_4CQPBr"
                         title="YouTube video player"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
